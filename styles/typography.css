@@ -1,0 +1,48 @@
+/* Typography */
+body {
+    text-wrap: balance;
+    font: var(--p);
+    background-color: var(--clr-90);
+    color: var(--clr-10);
+}
+
+h1 {
+    font: var(--h1);
+}
+
+h2 {
+    font: var(--h2);
+    margin: var(--spacing-8) 0;
+}
+
+p {
+    font: var(--p);
+    margin: var(--spacing-8) 0;
+}
+
+a {
+    color: var(--clr-10);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--clr-30);
+}
+
+.btn,
+button {
+    all: unset;
+    font: var(--p);
+    display: inline-block;
+    margin: var(--spacing-8) 0;
+    padding: var(--spacing-8) var(--spacing-16);
+    background-color: var(--clr-100);
+    border-radius: var(--spacing-4);
+    border: solid var(--spacing-4) var(--clr-30);
+    cursor: pointer;
+}
+
+.btn:hover,
+button:hover {
+    opacity: 0.8;
+}
