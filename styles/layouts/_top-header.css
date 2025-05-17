@@ -1,6 +1,6 @@
 /* Header */
 .header {
-    margin-block: var(--spacing-40);
+    /* margin-block: var(--spacing-40); */
 }
 .logo {
     font-size: 4rem;

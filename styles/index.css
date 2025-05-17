@@ -5,3 +5,5 @@
 @import url('/styles/_utilities.css');
 /* LAYOUTS */
 @import url('/styles/layouts/index.css');
+/* COMPONENTS */
+@import url('/styles/components/index.css');

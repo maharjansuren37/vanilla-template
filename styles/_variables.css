@@ -37,6 +37,8 @@
     --fs-sm: 1rem;
     --fs-md: 2rem;
     --fs-lg: 4rem;
+    --fs-xxl: 8rem;
+    --fs-giant: 16rem;
 
     --fs-300: 0.8125rem;
     --fs-400: 0.875rem;
@@ -59,16 +61,15 @@
     --spacing-160: 160px;
 
     --transition-speed: 0.3s;
+    --transition-speed-btn: 0.2s;
 
     /* --p: 1rem/1.5rem var(--ff-body);
     --h1: 600 3rem/1.2rem var(--ff-heading);
     --h2: 600 2rem/1.2rem var(--ff-heading); */
 
     --fs-body: var(--fs-400);
-    --fs-primary-heading: var(--fs-800);
-    --fs-secondary-heading: var(--fs-700);
     --fs-nav: var(--fs-600);
-    --fs-button: var(--fs-300);
+    --fs-button: var(--fs-600);
 }
 @media (width: 50em) {
     :root {

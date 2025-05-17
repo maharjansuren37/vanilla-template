@@ -1,0 +1,23 @@
+.btn,
+button {
+    all: unset;
+    font-size: var(--fs-button);
+    display: inline-block;
+    margin: var(--spacing-8) 0;
+    padding: var(--spacing-8) var(--spacing-16);
+    background-color: var(--clr-100);
+    border-radius: var(--spacing-4);
+    border: solid var(--spacing-4) var(--clr-30);
+    cursor: pointer;
+    transition: opacity var(--transition-speed-btn) ease-in,
+                scale var(--transition-speed-btn) ease-in
+}
+.btn:hover,
+button:hover {
+    opacity: 0.8;
+}
+.btn:active,
+button:active {
+    scale: 1.05;
+}
+

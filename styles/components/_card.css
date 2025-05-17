@@ -1,0 +1,34 @@
+.card-wrapper {
+    width: 100%;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    /* flex-grow | flex-shrink | flex-basis */
+    flex: 1 1 33.33%;
+    /* max-width: 33.33%; */
+    padding-inline: 0.5rem;
+}
+.card-content {
+    padding: 1rem;
+}
+.card-bg {
+    background-image: url('/public/assets/dummy-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.card-cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 35em) {
+    .cards {
+        flex-direction: column;
+    }
+}

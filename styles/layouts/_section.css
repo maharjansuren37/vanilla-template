@@ -1,7 +1,11 @@
 /* Sections */
-.section {
+/* .section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+} */
+
+.section {
+    margin-block: var(--spacing-160);
 }
