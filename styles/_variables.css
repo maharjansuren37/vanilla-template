@@ -60,9 +60,9 @@
 
     --transition-speed: 0.3s;
 
-    --p: 1rem/1.5rem var(--ff-body);
+    /* --p: 1rem/1.5rem var(--ff-body);
     --h1: 600 3rem/1.2rem var(--ff-heading);
-    --h2: 600 2rem/1.2rem var(--ff-heading);
+    --h2: 600 2rem/1.2rem var(--ff-heading); */
 
     --fs-body: var(--fs-400);
     --fs-primary-heading: var(--fs-800);

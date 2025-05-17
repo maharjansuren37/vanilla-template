@@ -1,10 +1,18 @@
-// menu toggle
-const menu = document.querySelector('.menu');
-const nav = document.querySelector('.nav');
+// Toggle Menu
+const navToggle = document.querySelector('.nav-toggle');
+const nav = document.querySelector('.nav-list');
 
-menu.addEventListener('click', (e) => {
-    nav.classList.toggle('show');
-})
+navToggle.addEventListener('click', () => {
+  const dataVisible = nav.getAttribute('data-visible');
+
+  if (dataVisible === 'false') {
+    nav.setAttribute('data-visible', true);
+    navToggle.setAttribute('aria-expanded', true);
+  } else {
+    nav.setAttribute('data-visible', false);
+    navToggle.setAttribute('aria-expanded', false);
+  }
+});
 
 // Header
 class THeader extends HTMLElement {
