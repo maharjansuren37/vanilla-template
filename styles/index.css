@@ -4,6 +4,4 @@
 @import url('/styles/_typography.css');
 @import url('/styles/_utilities.css');
 /* LAYOUTS */
-@import url('/styles/layouts/top-header.css');
-@import url('/styles/layouts/section.css');
-@import url('/styles/layouts/footer.css');
+@import url('/styles/layouts/index.css');
